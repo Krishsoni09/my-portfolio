@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Krish Soni | Cyber Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="rain"></canvas>
+
+<header>
+  <div class="logo">&lt;<span>Krish</span>Soni/&gt;</div>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+    <a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <div class="avatar"><span>KS</span></div>
+  <p class="hi">[ SYSTEM ONLINE ]</p>
+  <h1 class="neon" data-text="KRISH SONI">KRISH SONI</h1>
+  <p class="role">&gt; <span id="typed"></span><span class="caret">_</span></p>
+  <div class="btns">
+    <a href="#projects" class="btn">VIEW WORK</a>
+    <a href="#contact" class="btn alt">CONTACT ME</a>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <h2>// ABOUT</h2>
+  <div class="glass">
+    <p>Hi, main <b>Krish Soni</b> hoon, <b>Shri Ramswaroop Memorial University</b> ka student. Mujhe HTML, CSS, JavaScript aur Java me coding karna aur animated websites banana pasand hai. Mera goal ek achha Software Engineer banna hai.</p>
+    <div class="counts">
+      <div><b data-n="10">0</b><small>PROJECTS</small></div>
+      <div><b data-n="5">0</b><small>LANGUAGES</small></div>
+      <div><b data-n="400">0</b><small>CODE HOURS</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h2>// SKILLS</h2>
+  <div class="rings">
+    <div class="ring" data-p="90"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg><b>0%</b><span>HTML</span></div>
+    <div class="ring" data-p="85"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg><b>0%</b><span>CSS</span></div>
+    <div class="ring" data-p="75"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg><b>0%</b><span>JavaScript</span></div>
+    <div class="ring" data-p="70"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg><b>0%</b><span>Java</span></div>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <h2>// PROJECTS</h2>
+  <div class="cards">
+    <div class="flip"><div class="inner">
+      <div class="face front"><h3>Student Manager</h3><small>Java</small></div>
+      <div class="face back"><p>Java OOP app: student records add, search, update aur delete.</p></div>
+    </div></div>
+    <div class="flip"><div class="inner">
+      <div class="face front"><h3>Weather App</h3><small>HTML / CSS / JS</small></div>
+      <div class="face back"><p>Responsive weather dashboard with animated cards.</p></div>
+    </div></div>
+    <div class="flip"><div class="inner">
+      <div class="face front"><h3>Task Planner</h3><small>JavaScript</small></div>
+      <div class="face back"><p>To-do manager with filters and smooth transitions.</p></div>
+    </div></div>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <h2>// CONTACT</h2>
+  <form class="glass" onsubmit="event.preventDefault();this.querySelector('button').textContent='SENT ✓'">
+    <input placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="4" placeholder="Message"></textarea>
+    <button class="btn">SEND MESSAGE</button>
+  </form>
+</section>
+
+<footer>© 2026 Krish Soni · Built with HTML, CSS &amp; JavaScript</footer>
+<script src="script.js"></script>
+</body>
+</html>

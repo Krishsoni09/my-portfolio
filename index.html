@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krish Soni | Software Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Landing Page Title Bar -->
+  <div class="title-bar">
+    <span>Krish Soni — Personal Portfolio</span>
+    <span class="badge">Available for Internships &amp; Collaborations</span>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header>
+    <div class="logo">Krish <span>Soni</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="avatar">
+      <img src="C:\Users\Krish Soni\OneDrive\Desktop\MyPortfolio\krish soni.jpeg" alt="Krish Soni">
+    </div>
+    <p class="hi">WELCOME TO MY PORTFOLIO</p>
+    <h1 class="hero-title">Krish Soni</h1>
+    <p class="role"><span id="typed"></span><span class="caret">|</span></p>
+    <div class="btns">
+      <a href="#projects" class="btn">View Work</a>
+      <a href="#contact" class="btn alt">Contact Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hi, I am <b>Krish Soni</b>, a student at <b>Shri Ramswaroop Memorial University</b>. I enjoy coding in HTML, CSS, JavaScript, and Java, and I love creating clean, interactive websites. My goal is to become a skilled Software Engineer.</p>
+      <div class="counts">
+        <div><b data-n="10">0</b><small>Projects</small></div>
+        <div><b data-n="5">0</b><small>Languages</small></div>
+        <div><b data-n="400">0</b><small>Code Hours</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <h2>Technical Skills</h2>
+    <div class="rings">
+      <div class="ring" data-p="90">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg>
+        <b>0%</b><span>HTML</span>
+      </div>
+      <div class="ring" data-p="85">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg>
+        <b>0%</b><span>CSS</span>
+      </div>
+      <div class="ring" data-p="75">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg>
+        <b>0%</b><span>JavaScript</span>
+      </div>
+      <div class="ring" data-p="70">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42"/></svg>
+        <b>0%</b><span>Java</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2>Featured Projects</h2>
+    <div class="cards">
+      <div class="project-card">
+        <span class="tag">Java</span>
+        <h3>Student Manager</h3>
+        <p>Java OOP application to add, search, update, and delete student records efficiently.</p>
+      </div>
+      <div class="project-card">
+        <span class="tag">HTML / CSS / JS</span>
+        <h3>Weather App</h3>
+        <p>Responsive weather dashboard featuring clean UI cards and smooth transitions.</p>
+      </div>
+      <div class="project-card">
+        <span class="tag">JavaScript</span>
+        <h3>Task Planner</h3>
+        <p>Interactive to-do manager with status filters and minimalist animations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <h2>Get In Touch</h2>
+    
+<!-- Social Media & Contact Links -->
+<div class="social-container">
+
+  <!-- Gmail -->
+  <a href="mailto:ankit007sln@gmail.com"
+     class="social-card">
+    <div class="social-icon gmail">✉</div>
+    <div class="social-info">
+      <h3>Gmail</h3>
+      <p>ankit007sln@gmail.com</p>
+    </div>
+    <span class="social-arrow">↗</span>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/Krishsoni09"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="social-card">
+    <div class="social-icon github">GH</div>
+    <div class="social-info">
+      <h3>GitHub</h3>
+      <p>Explore My Projects</p>
+    </div>
+    <span class="social-arrow">↗</span>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/krish-soni-0165a337b/"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="social-card">
+    <div class="social-icon linkedin">in</div>
+    <div class="social-info">
+      <h3>LinkedIn</h3>
+      <p>Connect Professionally</p>
+    </div>
+    <span class="social-arrow">↗</span>
+  </a>
+
+</div>
+
+    <form class="card" onsubmit="event.preventDefault();const b=this.querySelector('button');b.textContent='Message Sent ✓';b.style.background='#15803d'">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>© 2026 Krish Soni · Built with HTML, CSS &amp; JavaScript</footer>
+  <script src="script.js"></script>
+</body>
+</html>
